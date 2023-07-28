@@ -1,0 +1,10 @@
+so in intelij
+    when wecreate diffrent classes in java they are atuomatically able to inherit from other classes because of how its set up.
+
+when populatin g a loop in java we can do it declarativly or with a loop
+
+what we learned today that the inhertence happens automaticcaly o this intelij ide
+we learned that to see the elementys of an arry we gott  to use a for loop and to populate w
+we got to intialize the size first and the the data typre like int[] etc. but if i was ussing
+a diffrent package for inheritence i might have to make all the classes in tyhe same package
+to make the hash we got to import the java.util.hashmap package and then hash<> we got to specify thekey and value type
