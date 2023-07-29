@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.util.Scanner;
 
 public class Review {
     //instance variable
@@ -46,7 +47,20 @@ public class Review {
         reviews.put("goodfellas","drama");
 
         System.out.println(reviews);
-        System.out.print(reviews.get("goodfellas"));// the get method takes in a key as a pramawtwe and returns the value
+        System.out.println(reviews.get("goodfellas"));// the get method takes in a key as a pramawtwe and returns the value
+
+        //this is for reading input we use the scanner object
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Name:");
+        String name = scanner.nextLine().trim();
+        System.out.println("you are " + name);
+
+    //comparisson compares two primative types
+
+        // do a for each loop and a switch statment and break and continue and
+
+        // -- and ++ are operators
+
     }// this is the end of the main
 
 } // this is the end of the class

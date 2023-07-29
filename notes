@@ -8,3 +8,37 @@ we learned that to see the elementys of an arry we gott  to use a for loop and t
 we got to intialize the size first and the the data typre like int[] etc. but if i was ussing
 a diffrent package for inheritence i might have to make all the classes in tyhe same package
 to make the hash we got to import the java.util.hashmap package and then hash<> we got to specify thekey and value type
+a field is a varibale java defines inside a class
+implicit casting is when java redefindes the data type when we concatenate or put two diffrent data types on the same line
+
+the next method only return one token
+so us the next line instead nextfloat and next it allows us to put multiple tokens in the output
+Scanner is so we can get user input in the terminal directly .
+we are makijng command line apps right now.
+controling the flow of execution is control flow in java
+    -comparisoon == compares objects this is diffrent frim the .equals that checks values
+
+    -logical operarors
+
+    -conditional statements
+        -switch statemnts executes parts of code depending on if a condition meets a certain value
+            -takes case clauses if its a value doe this
+            -we got to ad break statemnts to break out the case
+            -we can have a default clause if none of the conditions are met
+    - loops
+        - best to create the scanner objects outside of the loop because it can polute memeory just the constructor part outside of the loop
+        - while loops are usefule when we dont know how many times we wantt o reproduce the ocde
+        -do.while loops get executed at least once and use the do key word byu its like a while loop
+       break and continue?
+       -for each loop
+            -used to iterate over arrays or collections
+
+       //arrays when making an array we can use java.util.arrayLoist
+            - that alklows dynamic arrays that can change in size
+
+        // format specifiers
+            %d,%f,%s,%b,%c then at the end of the string you got to put in the variables
+            -printf method uses specifiers
+
+         -scanner needs to be closed
+
