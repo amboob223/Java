@@ -16,11 +16,11 @@ public class Block {
      String BlockNiche;
 
      //we define our methods outside the main
-
-    public static String getName(HashMap<String,String>traps, String BlockName ){
+// this is a method we define
+    public static String getName(HashMap<String,String>traps, String BlockName ){ // we had to make the hashmap object snd name we gave a paramether then the type and name of the other parameter
             return traps.get(BlockName);
     };
-
+// this is the constructor
      public Block(String name, double rating, String niche){
             this.BlockName =name;
             this.BlockRating = rating;
