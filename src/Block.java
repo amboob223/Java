@@ -17,9 +17,25 @@ public class Block {
 
      //we define our methods outside the main
 // this is a method we define
+    //1)
     public static String getName(HashMap<String,String>traps, String BlockName ){ // we had to make the hashmap object snd name we gave a paramether then the type and name of the other parameter
             return traps.get(BlockName);
+    };//get the nick name from the hash
+
+    //2)
+    public static String getNiche(Block[] blocks, String BlockNiche){
+
+        for(Block block:blocks){
+            if(block.BlockNiche.equals(BlockNiche)){
+            return block.BlockName;
+        }
+        }
+        //if if it makes here then
+        return "there is no niche";
     };
+
+
+
 // this is the constructor
      public Block(String name, double rating, String niche){
             this.BlockName =name;
@@ -56,7 +72,8 @@ public class Block {
          traps.put(blocks[2].BlockName,"jackcity");
 
          String nickname = getName(traps, blocks[1].BlockName);
-
+         String yallKnown = getNiche(blocks,"trapping");
+         System.out.println(yallKnown);
          System.out.println(nickname);
 
 
@@ -81,7 +98,10 @@ public class Block {
                 }
          }
 
+
+
      }
+
 
 
 }
