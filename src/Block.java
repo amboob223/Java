@@ -48,9 +48,10 @@ public class Block {
 
          Block conley = new Block("conley",5,"trapping");//we are initializinng an instance of a block
          Block oldNat = new Block("oldNat",3, "pimping");
-         Block pittsburg = new Block("PBG",4,"Stealing");
+         Block pittsburg = new Block("PBG",4,"stealing");
 
          // now i want to make the array with the objects
+
 
          int size = 3;
          Block[] blocks = new Block[size]; // so first we do the type an with th [] and then the name of the array snd then equal new the name of the type with th [] os how you initialize a array
